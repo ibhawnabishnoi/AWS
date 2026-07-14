@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhawna Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="overflow-hidden">
+
+<section class="relative flex h-screen flex-col overflow-hidden bg-gradient-to-br from-[#4A8FE7] via-[#6AAEF1] to-[#A7D8FF]">
+
+    <!-- Background Blur -->
+    <div class="absolute -top-20 -left-20 h-72 w-72 rounded-full bg-white/10 blur-3xl"></div>
+    <div class="absolute -bottom-20 -right-20 h-80 w-80 rounded-full bg-white/10 blur-3xl"></div>
+
+    <div class="relative z-10 mx-auto flex h-full w-full max-w-7xl flex-col px-6 lg:px-12">
+
+        <!-- Navbar -->
+        <nav class="flex items-center justify-between py-8">
+
+            <h1 class="text-3xl font-black tracking-widest text-white">
+                PORTFOLIO
+            </h1>
+
+            <ul class="hidden lg:flex items-center gap-10 text-white font-medium">
+                <li><a href="#" class="hover:text-blue-100 duration-300">Home</a></li>
+                <li><a href="#" class="hover:text-blue-100 duration-300">About</a></li>
+                <li><a href="#" class="hover:text-blue-100 duration-300">Portfolio</a></li>
+                <li><a href="#" class="hover:text-blue-100 duration-300">Work</a></li>
+                <li><a href="#" class="hover:text-blue-100 duration-300">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- Hero -->
+        <div class="flex flex-1 items-center">
+
+            <div class="grid w-full items-center gap-8 lg:grid-cols-2">
+
+                <!-- Left -->
+                <div class=" pb-[18vh]">
+
+                    <p class="uppercase tracking-[5px] font-semibold text-white/80">
+                        I'M BHAWNA BISHNOI
+                    </p>
+
+                    <h1 class="mt-4 text-5xl font-extrabold leading-tight text-white md:text-6xl lg:text-7xl">
+                        AWS <br> INTERN
+                    </h1>
+
+                    <p class="mt-6 max-w-lg text-lg leading-8 text-white/90">
+                        Passionate about AWS cloud technologies, modern web
+                        development, and building secure, scalable applications.
+                        I enjoy creating efficient solutions while continuously
+                        expanding my skills in cloud computing and software development.
+                    </p>
+
+                    <button class="mt-8 rounded-xl bg-white px-8 py-4 font-semibold text-blue-600 shadow-lg transition duration-300 hover:scale-105">
+                        Contact Me
+                    </button>
+
+                </div>
+
+                <!-- Right -->
+                <div class="relative flex h-full items-end justify-center">
+
+                    <div class="absolute h-72 w-72 rounded-full bg-white/20 blur-3xl">
+
+                    </div>
+
+                    <img
+                        src="4.jpeg"
+                        alt="Bhawna"
+                        class="relative z-10 w-72 md:w-80 lg:w-[460px] object-contain translate-y-4">
+
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom Wave --><div class="absolute -bottom-4 left-0 w-full">
+
+
+    <svg
+        class="block h-40 w-full"
+        viewBox="0 0 1440 320"
+        preserveAspectRatio="none">
+
+        <path
+            fill="#ffffff"
+            d="M0,224L60,208C120,192,240,160,360,170.7C480,181,600,235,720,256C840,277,960,267,1080,240C1200,213,1320,171,1380,149.3L1440,128L1440,320L0,320Z">
+        </path>
+
+
+    </svg>
+</div>
+
+</section>
+
+</body>
+</html>
