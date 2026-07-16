@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checker Tools</title>
+    <link rel="stylesheet" href="checker.css">
+</head>
+<body>
+
+    <div class="container">
+        <form action="" onsubmit="palindrome_checker(event)">
+            <h3>Palindrome Checker</h3>
+            <p>
+                <input type="text" id="pal" name="pal"
+                    placeholder="Type letters and numbers only"
+                    pattern="[a-zA-Z0-9\s]+"
+                    required>
+            </p>
+            <input type="submit">
+        </form>
+        <div id="pal_result"></div>
+    </div>
+
+    <div class="container">
+        <form action="" onsubmit="prime_number_checker(event)">
+            <h3>Prime Number Checker</h3>
+            <p>
+                <input type="number" id="prime" name="prime"
+                    placeholder="Type numbers only"
+                    pattern="[0-9]+"
+                    required>
+            </p>
+            <input type="submit">
+        </form>
+        <div id="prime_result"></div>
+    </div>
+
+
+    <script src="checker.js"></script>
+</body>
+</html>
